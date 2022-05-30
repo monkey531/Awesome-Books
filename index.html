@@ -8,6 +8,78 @@
     <title>Awesome Books</title>
   </head>
   <body>
+    <header>
+      <a href="index.htm" class="logo">
+        <i class="fa-solid fa-book"></i>
+        <span
+          >Awesome <br />
+          Books</span
+        >
+      </a>
+      <nav>
+        <ul class="menu">
+          <li class="menu-item active"><a>List</a></li>
+          <li class="menu-item"><a>Add Book</a></li>
+          <li class="menu-item"><a>Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="page">
+        <div class="list page_content active">
+          <h3>All awesome Books</h3>
+          <div class="book-list" id="bookList"></div>
+        </div>
+        <!-- Add book Tab -->
+        <div class="page_content">
+          <h3>Add a new Book</h3>
+          <!-- Form to instert books -->
+          <form class="book-list-form" method="post">
+            <!-- Insert book title here -->
+            <input
+              type="text"
+              name="title"
+              id="book-title"
+              placeholder="Title"
+              required
+            />
+            <!-- Insert book author here -->
+            <input
+              type="text"
+              name="author"
+              id="book-author"
+              placeholder="Author"
+              required
+            />
+            <button type="button" id="add" class="btn">Add</button>
+          </form>
+        </div>
+        <div class="page_content">
+          <h3>Contact information</h3>
+          <div class="contact">
+            <p>
+              Do you have any question or just want to say hello ? <br />
+              You can reach out to us!
+            </p>
+            <span class="user">Chris Siku</span>
+            <ul>
+              <li>
+                Email Address :
+                <a href="mailto:chrissiku5@gmail.com">chrissiku5@gmail.com</a>
+              </li>
+              <li>
+                Phone Number :
+                <a href="tel:+243992984499">+243 992 984 499</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; All Right reserved || Awesome Books</p>
+    </footer>
     <script src="index.js"></script>
   </body>
 </html>
