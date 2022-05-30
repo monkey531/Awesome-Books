@@ -67,6 +67,7 @@ header nav ul.menu li {
 header nav ul.menu li a {
   font-weight: 500;
   font-size: 13px;
+  cursor: pointer;
 }
 
 header nav ul.menu li.active {
