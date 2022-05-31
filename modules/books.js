@@ -4,7 +4,7 @@ const bookAuthor = document.querySelector('#book-author');
 const addBookBtn = document.querySelector('#add');
 const bookList = document.querySelector('#bookList');
 
-// // Initialise the collection of books
+// // Initialize the collection of books
 
 let collectBooks = JSON.parse(localStorage.getItem('books')) || [];
 

@@ -7,8 +7,6 @@ import {
 } from './modules/books.js';
 import myDateTime from './modules/date.js';
 
-
-
 const collectionBooks = JSON.parse(localStorage.getItem('books')) || [];
 
 const myBookList = new BookClass();
