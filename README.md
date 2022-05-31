@@ -34,6 +34,7 @@ git clone https://github.com/shaqdeff/Awesome-Books.git
 ```
 
 - Once the files are on your machine, open the **Awesome-Books** folder in [Visual Studio Code](https://code.visualstudio.com/download).
+- Run ```npm install``` to install packages used.
 
 ## Deployment
 
