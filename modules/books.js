@@ -25,7 +25,7 @@ class BookClass {
     this.book.title = bookTitle.value;
     this.book.author = bookAuthor.value;
     collectBooks.push(this.book);
-    localStorage.setItem('books', JSON.stringify(this.freshCollection));
+    localStorage.setItem('books', JSON.stringify(collectionBooks));
   }
 
   // Add the method to remove a given book to the localStorage
